@@ -11,6 +11,11 @@ insertPackage('TestRcpp_0.1-1.tgz', dir)
 # Then push
 
 # Then:
+library('drat')
 addRepo('ku-awdc')
 getOption("repos")
 install.packages('TestRcpp')
+
+
+# Or without even having drat installed:
+install.packages('TestRcpp', repos="https://ku-awdc.github.io/drat/")
