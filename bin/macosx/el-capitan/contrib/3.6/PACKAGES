@@ -1,0 +1,7 @@
+Package: TestRcpp
+Version: 0.1-1
+Depends: R (>= 3.0.0)
+Imports: Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+License: GPL-3
+MD5sum: a1fcae86bc351c49d73f41abe7598384
