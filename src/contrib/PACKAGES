@@ -1,0 +1,78 @@
+Package: AnomalyDetection
+Version: 1.0.1
+Depends: R (>= 2.10.0)
+Imports: ggplot2, stringr, lubridate
+Suggests: testthat
+License: GPL-3
+MD5sum: dcc22e5d88ff7338763508460fe32555
+NeedsCompilation: no
+
+Package: BH
+Version: 1.69.0-0
+License: BSL-1.0
+MD5sum: 9de3570669f2ef111a395df4a9d8c075
+NeedsCompilation: no
+
+Package: BreakoutDetection
+Version: 1.0.1.1
+Imports: Rcpp (>= 0.11.2), ggplot2
+LinkingTo: Rcpp
+License: GPL (>= 2)
+MD5sum: 588b4af8a0ba2cd609fa837516251a75
+NeedsCompilation: yes
+
+Package: docopt
+Version: 0.4.3.1
+Depends: methods
+Imports: stringr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: d8e5fa2ea4e8e10c9f2ee6a99be65219
+NeedsCompilation: no
+
+Package: fasttime
+Version: 1.0-1
+License: GPL-2
+MD5sum: 8cacd49ba2a61bb22b657cc3b0875a20
+NeedsCompilation: yes
+
+Package: git2r
+Version: 0.9
+Depends: R (>= 3.0.2), methods
+License: GPL-2
+MD5sum: 60cca8640a7be791532075bc7fe06172
+NeedsCompilation: yes
+
+Package: gunsales
+Version: 0.1.0
+Depends: R (>= 2.10)
+Imports: readr, dplyr, stringr, seasonal
+License: Apache License (== 2)
+MD5sum: b14bfcf363c2ce94ca2700e9078c178b
+NeedsCompilation: no
+
+Package: Rblpapi
+Version: 0.3.10
+Imports: Rcpp (>= 0.11.0), utils
+LinkingTo: Rcpp, BH
+Suggests: fts, xts, zoo, data.table, knitr, RUnit
+License: file LICENSE
+MD5sum: 86372ca9a75e486acca4fadfe4512ff0
+NeedsCompilation: yes
+
+Package: RcppR6
+Version: 0.2.001
+Depends: R (>= 3.1.0)
+Imports: Rcpp, devtools, whisker, yaml
+Suggests: testthat, roxygen2 (>= 4.0.0), R6 (>= 1.0.1.9001)
+License: BSD_2_clause + file LICENSE
+MD5sum: f33c58429168b349f9cf771a36303b6a
+NeedsCompilation: no
+
+Package: winsorize
+Version: 0.0.2
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+MD5sum: dc2dcfabf1243c56998767db570b5335
+NeedsCompilation: yes
