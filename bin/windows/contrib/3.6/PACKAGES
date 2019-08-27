@@ -1,0 +1,6 @@
+Package: slaughtercodes
+Version: 0.1.0-2
+Depends: R (>= 2.14.0), lme4
+Imports: parallel, dplyr, sqldf, MASS
+Suggests: knitr
+License: GPL-2

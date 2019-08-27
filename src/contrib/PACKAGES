@@ -1,3 +1,12 @@
+Package: slaughtercodes
+Version: 0.1.0-2
+Depends: R (>= 2.14.0), lme4
+Imports: parallel, dplyr, sqldf, MASS
+Suggests: knitr
+License: GPL-2
+MD5sum: b27686889a14a3c036ba9b3b4f271c92
+NeedsCompilation: no
+
 Package: TestRcpp
 Version: 0.1-1
 Depends: R (>= 3.0.0)
