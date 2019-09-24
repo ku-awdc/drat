@@ -19,3 +19,6 @@ install.packages('TestRcpp')
 
 # Or without even having drat installed:
 install.packages('TestRcpp', repos=c(CRAN="https://cran.rstudio.com/", "ku-awdc"="https://ku-awdc.github.io/drat/"))
+
+# If suggests are needed:
+install.packages('TestRcpp', dependencies=TRUE, repos=c(CRAN="https://cran.rstudio.com/", "ku-awdc"="https://ku-awdc.github.io/drat/"))
