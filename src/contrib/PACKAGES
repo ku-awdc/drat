@@ -1,11 +1,11 @@
 Package: bayescount
-Version: 1.0.0-5
+Version: 1.0.0-7
 Depends: R (>= 3.3.0)
-Imports: parallel, stats, utils, Rcpp (>= 1.0.0)
+Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
 Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
 License: GPL-2
-MD5sum: 7a7e72989172a792e0af195ab89245aa
+MD5sum: a913252e025d8f8c792779792edc5a82
 NeedsCompilation: yes
 
 Package: slaughtercodes
