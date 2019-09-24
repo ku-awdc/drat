@@ -13,7 +13,7 @@ setwd(file.path(dir,"incoming"))
 for(p in list.files()){
 	cat('Inserting', p, '\n')
 	insertPackage(p, dir)
-#	file.remove(p)
+	file.remove(p)
 }
 # Then push
 
