@@ -8,6 +8,15 @@ License: GPL-3
 MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
 
+Package: runjags
+Version: 2.0.4-6
+Depends: R (>= 2.14.0)
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats, utils
+Suggests: rjags, modeest, knitr
+License: GPL-2
+MD5sum: 04f3d76224f1e937f40dcb16bc8252bb
+NeedsCompilation: yes
+
 Package: slaughtercodes
 Version: 0.1.0-2
 Depends: R (>= 2.14.0), lme4

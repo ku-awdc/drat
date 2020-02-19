@@ -7,6 +7,15 @@ Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>= 2.1.0), knitr
 License: GPL-3
 MD5sum: cda1e0832b21ac15fe9d55d6c7699b77
 
+Package: runjags
+Version: 2.0.4-6
+Depends: R (>= 2.14.0)
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats, utils
+Suggests: rjags, modeest, knitr
+License: GPL-2
+Archs: runjags.so.dSYM
+MD5sum: 408ee795b6298773380122064834db37
+
 Package: slaughtercodes
 Version: 0.1.0-2
 Depends: R (>= 2.14.0), lme4

@@ -10,7 +10,9 @@ dir <- '~/Documents/GitHub/drat'
 
 setwd(file.path(dir,"incoming"))
 
-for(p in list.files()){
+ff <- list.files()
+ff <- ff[ff!='README.md']
+for(p in ff){
 	cat('Inserting', p, '\n')
 	insertPackage(p, dir)
 	file.remove(p)
