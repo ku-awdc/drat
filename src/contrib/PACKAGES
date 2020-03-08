@@ -8,6 +8,16 @@ License: GPL-3
 MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
 
+Package: efsabt
+Version: 1.0.0-1
+Depends: R (>= 3.0.0)
+Imports: methods, parallel, ggplot2, Rcpp (>= 0.12.0)
+LinkingTo: Rcpp
+Suggests: knitr
+License: GPL-2
+MD5sum: ce397fe4cca5bad191bd0d130ada741f
+NeedsCompilation: yes
+
 Package: runjags
 Version: 2.0.4-6
 Depends: R (>= 2.14.0)
