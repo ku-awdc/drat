@@ -8,6 +8,15 @@ License: GPL-3
 MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
 
+Package: Covid19RR
+Version: 0.2.0-2
+Depends: TMB, nloptr, zip, tidyverse
+LinkingTo: TMB, RcppEigen
+Suggests: testthat, knitr, rmarkdown, spelling
+License: GPL-3
+MD5sum: d18485dc026ced1c8067197ac1638e1b
+NeedsCompilation: yes
+
 Package: efsabt
 Version: 1.0.0-1
 Depends: R (>= 3.0.0)
