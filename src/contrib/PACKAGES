@@ -9,12 +9,12 @@ MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
 
 Package: Covid19RR
-Version: 0.2.0-2
-Depends: TMB, nloptr, zip, tidyverse
+Version: 0.3.0-2
+Imports: stats, utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling
+Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
 License: GPL-3
-MD5sum: d18485dc026ced1c8067197ac1638e1b
+MD5sum: 8935fcf805699332acac0ec85fb8dadc
 NeedsCompilation: yes
 
 Package: efsabt
