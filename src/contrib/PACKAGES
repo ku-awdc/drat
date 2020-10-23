@@ -8,6 +8,54 @@ License: GPL-3
 MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
 
+Package: bayescount
+Version: 1.0.0-5
+Depends: R (>= 3.3.0)
+Imports: parallel, stats, utils, Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+License: GPL-2
+MD5sum: 7a7e72989172a792e0af195ab89245aa
+NeedsCompilation: yes
+
+Package: bayescount
+Version: 1.0.0-7
+Depends: R (>= 3.3.0)
+Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+License: GPL-2
+MD5sum: a913252e025d8f8c792779792edc5a82
+NeedsCompilation: yes
+
+Package: bayescount
+Version: 1.0.0-8
+Depends: R (>= 3.3.0)
+Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+License: GPL-2
+MD5sum: 8abe941f27920aec4f5e510d67c02cf8
+NeedsCompilation: yes
+
+Package: Covid19RR
+Version: 0.2.0-2
+Depends: TMB, nloptr, zip, tidyverse
+LinkingTo: TMB, RcppEigen
+Suggests: testthat, knitr, rmarkdown, spelling
+License: GPL-3
+MD5sum: d18485dc026ced1c8067197ac1638e1b
+NeedsCompilation: yes
+
+Package: Covid19RR
+Version: 0.3.0-2
+Imports: stats, utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+LinkingTo: TMB, RcppEigen
+Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+License: GPL-3
+MD5sum: 8935fcf805699332acac0ec85fb8dadc
+NeedsCompilation: yes
+
 Package: Covid19RR
 Version: 0.3.1-0
 Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
@@ -15,6 +63,15 @@ LinkingTo: TMB, RcppEigen
 Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
 License: GPL-3
 MD5sum: ea47068d6e6ba70004e2316198877b1e
+NeedsCompilation: yes
+
+Package: Covid19RR
+Version: 0.3.2-0
+Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+LinkingTo: TMB, RcppEigen
+Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+License: GPL-3
+MD5sum: a836ef9d820f0ffcc17bd1694f441fea
 NeedsCompilation: yes
 
 Package: efsabt
