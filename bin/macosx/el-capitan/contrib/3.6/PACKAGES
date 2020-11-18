@@ -7,6 +7,33 @@ Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>= 2.1.0), knitr
 License: GPL-3
 MD5sum: cda1e0832b21ac15fe9d55d6c7699b77
 
+Package: bayescount
+Version: 1.0.0-5
+Depends: R (>= 3.3.0)
+Imports: parallel, stats, utils, Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+License: GPL-2
+MD5sum: 49ca5c10fa2743efb4ddebe5b18951cd
+
+Package: bayescount
+Version: 1.0.0-7
+Depends: R (>= 3.3.0)
+Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+License: GPL-2
+MD5sum: 6663af1ed7ba9dbf0978f61e79d3149a
+
+Package: bayescount
+Version: 1.0.0-8
+Depends: R (>= 3.3.0)
+Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+License: GPL-2
+MD5sum: 34d45042a33fc4af6a97e164975407dd
+
 Package: Covid19RR
 Version: 0.3.3-1
 Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
@@ -14,6 +41,14 @@ LinkingTo: TMB, RcppEigen
 Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
 License: GPL-3
 MD5sum: f4041950e1a91465f53ad0bb5b07865f
+
+Package: Covid19RR
+Version: 0.3.4-2
+Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+LinkingTo: TMB, RcppEigen
+Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+License: GPL-3
+MD5sum: 6a7d738f7c41facfe55f071740f780f6
 
 Package: runjags
 Version: 2.0.4-6

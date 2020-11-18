@@ -7,8 +7,34 @@ Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>= 2.1.0), knitr
 License: GPL-3
 Archs: i386, x64
 
+Package: bayescount
+Version: 1.0.0-7
+Depends: R (>= 3.3.0)
+Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+License: GPL-2
+Archs: i386, x64
+
+Package: bayescount
+Version: 1.0.0-8
+Depends: R (>= 3.3.0)
+Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+License: GPL-2
+Archs: i386, x64
+
 Package: Covid19RR
 Version: 0.3.3-1
+Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+LinkingTo: TMB, RcppEigen
+Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+License: GPL-3
+Archs: i386, x64
+
+Package: Covid19RR
+Version: 0.3.4-2
 Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
 LinkingTo: TMB, RcppEigen
 Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
