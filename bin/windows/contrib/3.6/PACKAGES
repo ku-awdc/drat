@@ -3,7 +3,8 @@ Version: 1.0.0-10
 Depends: R (>= 3.3.0)
 Imports: stats, utils, dplyr, rlang, Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
-Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>= 2.1.0),
+        knitr, rmarkdown, spelling
 License: GPL-3
 Archs: i386, x64
 
@@ -12,7 +13,8 @@ Version: 1.0.0-7
 Depends: R (>= 3.3.0)
 Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
-Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr,
+        ggplot2
 License: GPL-2
 Archs: i386, x64
 
@@ -21,25 +23,36 @@ Version: 1.0.0-8
 Depends: R (>= 3.3.0)
 Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
-Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr,
+        ggplot2
 License: GPL-2
 Archs: i386, x64
 
 Package: Covid19RR
 Version: 0.3.3-1
-Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2,
+        readr, shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard,
+        plotly, shinyWidgets
 License: GPL-3
 Archs: i386, x64
 
 Package: Covid19RR
 Version: 0.3.4-2
-Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2,
+        readr, shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard,
+        plotly, shinyWidgets
 License: GPL-3
 Archs: i386, x64
+
+Package: eggSim
+Version: 0.9.0-1
+Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2
+Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+License: GPL-3
 
 Package: runjags
 Version: 2.0.4-6

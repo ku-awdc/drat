@@ -1,0 +1,5 @@
+Package: eggSim
+Version: 0.9.0-1
+Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2
+Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+License: GPL-3
