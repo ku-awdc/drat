@@ -1,0 +1,7 @@
+Package: goldfinger
+Version: 0.1.0-1
+Depends: tidyverse
+Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: b7045a1c0446e906af7f4f45ea93ba9d
