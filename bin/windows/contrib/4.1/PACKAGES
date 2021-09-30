@@ -1,0 +1,7 @@
+Package: runjags
+Version: 2.2.0-2
+Depends: R (>= 2.14.0)
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats, utils
+Suggests: rjags (>= 4-7), modeest, testthat (>= 3.0.0), knitr, markdown, spelling
+License: GPL-2
+Archs: i386, x64
