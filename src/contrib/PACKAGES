@@ -146,6 +146,15 @@ License: GPL (>= 3)
 MD5sum: cee567959cbff43035706042c07d22fb
 NeedsCompilation: no
 
+Package: goldfinger
+Version: 0.3.0-1
+Depends: R (>= 3.5.0), tidyverse
+Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr, stringr, qs
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 91bb2488adada133c4cc53a016674070
+NeedsCompilation: no
+
 Package: runjags
 Version: 2.0.4-6
 Depends: R (>= 2.14.0)
