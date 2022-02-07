@@ -1,14 +1,25 @@
 Package: goldfinger
 Version: 0.3.0-0
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr, stringr, qs
+Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr,
+       stringr, qs
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+
+Package: goldfinger
+Version: 0.4.0-1
+Depends: R (>= 3.5.0), tidyverse
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1),
+       Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 
 Package: runjags
 Version: 2.2.0-2
 Depends: R (>= 2.14.0)
-Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats, utils
-Suggests: rjags (>= 4-7), modeest, testthat (>= 3.0.0), knitr, markdown, spelling
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats,
+       utils
+Suggests: rjags (>= 4-7), modeest, testthat (>= 3.0.0), knitr,
+       markdown, spelling
 License: GPL-2
 Archs: i386, x64
