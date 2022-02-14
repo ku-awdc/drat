@@ -28,4 +28,4 @@ Depends: R (>= 2.14.0)
 Imports: methods, stats, utils, readxl, ggplot2, magrittr, dplyr, rlang, tidyr, knitr
 Suggests: markdown
 License: GPL (>= 2)
-MD5sum: 94121e46f0bf4aa8e5c6c298e075e6de
+MD5sum: ed48d25fe35102d3addbf337f034e000
