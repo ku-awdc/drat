@@ -21,3 +21,11 @@ Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 0eb373bfdc086e557b21bfe6d7880718
+
+Package: WelfareIndex
+Version: 2.0.2-3
+Depends: R (>= 2.14.0)
+Imports: methods, stats, utils, readxl, ggplot2, magrittr, dplyr, rlang, tidyr, knitr
+Suggests: markdown
+License: GPL (>= 2)
+MD5sum: 94121e46f0bf4aa8e5c6c298e075e6de

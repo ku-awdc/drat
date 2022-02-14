@@ -26,3 +26,10 @@ Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats, utils
 Suggests: rjags (>= 4-7), modeest, testthat (>= 3.0.0), knitr, markdown, spelling
 License: GPL-2
 Archs: i386, x64
+
+Package: WelfareIndex
+Version: 2.0.2-3
+Depends: R (>= 2.14.0)
+Imports: methods, stats, utils, readxl, ggplot2, magrittr, dplyr, rlang, tidyr, knitr
+Suggests: markdown
+License: GPL (>= 2)
