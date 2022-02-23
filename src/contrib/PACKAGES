@@ -191,6 +191,15 @@ License: GPL (>= 3)
 MD5sum: 5c088a95ca816b9124c2042d3ae3ed65
 NeedsCompilation: no
 
+Package: HexScape
+Version: 0.2.0-1
+Depends: tidyverse
+Imports: sf, rmapshaper, igraph, pbapply
+Suggests: eurostat, testthat (>= 3.0.0), knitr, markdown, spelling
+License: GPL (>= 3)
+MD5sum: 6b70e880bf3841b3b34213f7cc0a1a7b
+NeedsCompilation: no
+
 Package: runjags
 Version: 2.0.4-6
 Depends: R (>= 2.14.0)
