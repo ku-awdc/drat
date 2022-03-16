@@ -119,6 +119,16 @@ License: GPL-3
 MD5sum: e0703bdf6d42ae20abec21dbbf218bb4
 NeedsCompilation: no
 
+Package: eggSim
+Version: 0.9.1-2
+Depends: tidyverse
+Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+LinkingTo: Rcpp
+Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+License: GPL-3
+MD5sum: b43d4a0805e8e11cd85c401126f63cfb
+NeedsCompilation: yes
+
 Package: goldfinger
 Version: 0.1.0-1
 Depends: tidyverse
@@ -158,7 +168,8 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.0-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
+           cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: ab22e5bac4807395ddcb99bc5d797094
@@ -167,7 +178,8 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.1-0
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
+           cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 37cdcaf194de23f596ced1e15051533e
@@ -176,7 +188,8 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.1-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
+           cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: f9340394fd545a21edb7991d95b1daff
@@ -185,7 +198,8 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.2-2
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
+           cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 5c088a95ca816b9124c2042d3ae3ed65
