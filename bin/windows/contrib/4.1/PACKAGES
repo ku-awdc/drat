@@ -8,6 +8,14 @@ Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
 License: GPL-3
 Archs: i386, x64
 
+Package: goldeneye
+Version: 0.5.0-1
+Depends: R (>= 3.5.0), tidyverse
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1),
+       Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+
 Package: goldfinger
 Version: 0.3.0-0
 Depends: R (>= 3.5.0), tidyverse
