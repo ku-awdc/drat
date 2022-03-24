@@ -1,16 +1,27 @@
 Package: eggSim
 Version: 0.9.1-2
 Depends: tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang,
+       dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
 Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
 License: GPL-3
 MD5sum: 43a9472c30a7fa196fae4eeefe41069b
 
+Package: goldeneye
+Version: 0.5.0-1
+Depends: R (>= 3.5.0), tidyverse
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1),
+       Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: fe3fdd947299b9cb8e9b12dff7edef16
+
 Package: goldfinger
 Version: 0.1.0-1
 Depends: tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr,
+       stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: b7045a1c0446e906af7f4f45ea93ba9d
@@ -18,8 +29,8 @@ MD5sum: b7045a1c0446e906af7f4f45ea93ba9d
 Package: goldfinger
 Version: 0.4.0-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1),
+       Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 2c77fbcc99943bc25f2bd0a42192c301
@@ -27,8 +38,8 @@ MD5sum: 2c77fbcc99943bc25f2bd0a42192c301
 Package: goldfinger
 Version: 0.4.2-2
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1),
+       Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 0eb373bfdc086e557b21bfe6d7880718
@@ -36,7 +47,8 @@ MD5sum: 0eb373bfdc086e557b21bfe6d7880718
 Package: WelfareIndex
 Version: 2.0.2-3
 Depends: R (>= 2.14.0)
-Imports: methods, stats, utils, readxl, ggplot2, magrittr, dplyr, rlang, tidyr, knitr
+Imports: methods, stats, utils, readxl, ggplot2, magrittr, dplyr,
+       rlang, tidyr, knitr
 Suggests: markdown
 License: GPL (>= 2)
 MD5sum: ed48d25fe35102d3addbf337f034e000
