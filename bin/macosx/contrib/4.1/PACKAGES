@@ -8,6 +8,16 @@ Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
 License: GPL-3
 MD5sum: 43a9472c30a7fa196fae4eeefe41069b
 
+Package: eggSim
+Version: 0.9.3-2
+Depends: R (>= 4.1.0), tidyverse
+Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang,
+       dplyr, ggplot2, Rcpp
+LinkingTo: Rcpp
+Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+License: GPL-3
+MD5sum: 6b6fd9ba6281a7205051c104f2af0d21
+
 Package: goldeneye
 Version: 0.5.0-1
 Depends: R (>= 3.5.0), tidyverse

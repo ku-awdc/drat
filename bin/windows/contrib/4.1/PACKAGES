@@ -18,6 +18,16 @@ Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
 License: GPL-3
 Archs: i386, x64
 
+Package: eggSim
+Version: 0.9.3-2
+Depends: R (>= 4.1.0), tidyverse
+Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang,
+       dplyr, ggplot2, Rcpp
+LinkingTo: Rcpp
+Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+License: GPL-3
+Archs: i386, x64
+
 Package: goldeneye
 Version: 0.5.0-1
 Depends: R (>= 3.5.0), tidyverse
