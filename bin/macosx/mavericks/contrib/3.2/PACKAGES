@@ -1,8 +1,0 @@
-Package: efsabt
-Version: 1.0.0-1
-Depends: R (>= 3.0.0)
-Imports: methods, parallel, ggplot2, Rcpp (>= 0.12.0)
-LinkingTo: Rcpp
-Suggests: knitr
-License: GPL-2
-MD5sum: 4a49aaea6a701f5e1824534c77d80e17
