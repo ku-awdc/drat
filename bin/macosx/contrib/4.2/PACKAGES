@@ -6,3 +6,12 @@ LinkingTo: Rcpp
 Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
 License: GPL-3
 MD5sum: da370a56285310282f155bf6b44a556f
+
+Package: eggSim
+Version: 0.9.4-6
+Depends: R (>= 4.1.0), tidyverse
+Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+LinkingTo: Rcpp
+Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+License: GPL-3
+MD5sum: 969c89bfce368564481bb74cbbd3d393
