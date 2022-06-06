@@ -1,9 +1,12 @@
 Package: bayescount
 Version: 1.0.0-10
 Depends: R (>= 3.3.0)
-Imports: stats, utils, dplyr, rlang, Rcpp (>= 1.0.0)
+Imports: stats, utils, dplyr, rlang, Rcpp (>=
+     1.0.0)
 LinkingTo: Rcpp
-Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: shiny, shinythemes, rhandsontable,
+     ggplot2, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
@@ -13,7 +16,8 @@ Version: 1.0.0-5
 Depends: R (>= 3.3.0)
 Imports: parallel, stats, utils, Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
-Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+Suggests: rjags, runjags, knitr, shiny,
+     shinythemes, dplyr, tibble, tidyr, ggplot2
 License: GPL-2
 MD5sum: 7a7e72989172a792e0af195ab89245aa
 NeedsCompilation: yes
@@ -21,9 +25,11 @@ NeedsCompilation: yes
 Package: bayescount
 Version: 1.0.0-7
 Depends: R (>= 3.3.0)
-Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
+Imports: parallel, stats, utils, runjags, Rcpp (>=
+     1.0.0)
 LinkingTo: Rcpp
-Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+Suggests: rjags, runjags, knitr, shiny,
+     shinythemes, dplyr, tibble, tidyr, ggplot2
 License: GPL-2
 MD5sum: a913252e025d8f8c792779792edc5a82
 NeedsCompilation: yes
@@ -31,9 +37,11 @@ NeedsCompilation: yes
 Package: bayescount
 Version: 1.0.0-8
 Depends: R (>= 3.3.0)
-Imports: parallel, stats, utils, runjags, Rcpp (>= 1.0.0)
+Imports: parallel, stats, utils, runjags, Rcpp (>=
+     1.0.0)
 LinkingTo: Rcpp
-Suggests: rjags, runjags, knitr, shiny, shinythemes, dplyr, tibble, tidyr, ggplot2
+Suggests: rjags, runjags, knitr, shiny,
+     shinythemes, dplyr, tibble, tidyr, ggplot2
 License: GPL-2
 MD5sum: 8abe941f27920aec4f5e510d67c02cf8
 NeedsCompilation: yes
@@ -49,54 +57,73 @@ NeedsCompilation: yes
 
 Package: Covid19RR
 Version: 0.3.0-2
-Imports: stats, utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: stats, utils, graphics, grDevices, xml2,
+     rvest, TMB, nloptr, zip, ggplot2, readr,
+     shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+Suggests: testthat, knitr, rmarkdown, spelling,
+     EpiEstim, shinydashboard, plotly,
+     shinyWidgets
 License: GPL-3
 MD5sum: 8935fcf805699332acac0ec85fb8dadc
 NeedsCompilation: yes
 
 Package: Covid19RR
 Version: 0.3.1-0
-Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: utils, graphics, grDevices, xml2, rvest,
+     TMB, nloptr, zip, ggplot2, readr, shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+Suggests: testthat, knitr, rmarkdown, spelling,
+     EpiEstim, shinydashboard, plotly,
+     shinyWidgets
 License: GPL-3
 MD5sum: ea47068d6e6ba70004e2316198877b1e
 NeedsCompilation: yes
 
 Package: Covid19RR
 Version: 0.3.2-0
-Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: utils, graphics, grDevices, xml2, rvest,
+     TMB, nloptr, zip, ggplot2, readr, shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+Suggests: testthat, knitr, rmarkdown, spelling,
+     EpiEstim, shinydashboard, plotly,
+     shinyWidgets
 License: GPL-3
 MD5sum: a836ef9d820f0ffcc17bd1694f441fea
 NeedsCompilation: yes
 
 Package: Covid19RR
 Version: 0.3.3-0
-Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: utils, graphics, grDevices, xml2, rvest,
+     TMB, nloptr, zip, ggplot2, readr, shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+Suggests: testthat, knitr, rmarkdown, spelling,
+     EpiEstim, shinydashboard, plotly,
+     shinyWidgets
 License: GPL-3
 MD5sum: 62df1f8f9e27028d349ea70343ce63fc
 NeedsCompilation: yes
 
 Package: Covid19RR
 Version: 0.3.3-1
-Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: utils, graphics, grDevices, xml2, rvest,
+     TMB, nloptr, zip, ggplot2, readr, shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+Suggests: testthat, knitr, rmarkdown, spelling,
+     EpiEstim, shinydashboard, plotly,
+     shinyWidgets
 License: GPL-3
 MD5sum: 635ff302008a60d37a375a40d0330e7a
 NeedsCompilation: yes
 
 Package: Covid19RR
 Version: 0.3.4-2
-Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: utils, graphics, grDevices, xml2, rvest,
+     TMB, nloptr, zip, ggplot2, readr, shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+Suggests: testthat, knitr, rmarkdown, spelling,
+     EpiEstim, shinydashboard, plotly,
+     shinyWidgets
 License: GPL-3
 MD5sum: 3583b08e46ae526fbc2735ad50664c1a
 NeedsCompilation: yes
@@ -104,7 +131,8 @@ NeedsCompilation: yes
 Package: efsabt
 Version: 1.0.0-1
 Depends: R (>= 3.0.0)
-Imports: methods, parallel, ggplot2, Rcpp (>= 0.12.0)
+Imports: methods, parallel, ggplot2, Rcpp (>=
+     0.12.0)
 LinkingTo: Rcpp
 Suggests: knitr
 License: GPL-2
@@ -113,8 +141,10 @@ NeedsCompilation: yes
 
 Package: eggSim
 Version: 0.9.0-1
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: e0703bdf6d42ae20abec21dbbf218bb4
 NeedsCompilation: no
@@ -122,9 +152,11 @@ NeedsCompilation: no
 Package: eggSim
 Version: 0.9.1-2
 Depends: tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: b43d4a0805e8e11cd85c401126f63cfb
 NeedsCompilation: yes
@@ -132,9 +164,11 @@ NeedsCompilation: yes
 Package: eggSim
 Version: 0.9.2-5
 Depends: R (>= 4.1.0), tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: 06cf816faea8cc9d1b4dae5aeff5079b
 NeedsCompilation: yes
@@ -142,9 +176,11 @@ NeedsCompilation: yes
 Package: eggSim
 Version: 0.9.3-2
 Depends: R (>= 4.1.0), tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: 7f372a1f81147a614d2a762ee8d90a81
 NeedsCompilation: yes
@@ -152,9 +188,11 @@ NeedsCompilation: yes
 Package: eggSim
 Version: 0.9.4-2
 Depends: R (>= 4.1.0), tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: cdf3baad962228d10222c4d2ca27cb5e
 NeedsCompilation: yes
@@ -162,9 +200,11 @@ NeedsCompilation: yes
 Package: eggSim
 Version: 0.9.4-4
 Depends: R (>= 4.1.0), tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: f5f02c50639ba54a4e7026bceeb372cb
 NeedsCompilation: yes
@@ -172,9 +212,11 @@ NeedsCompilation: yes
 Package: eggSim
 Version: 0.9.4-5
 Depends: R (>= 4.1.0), tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: f3b39932f9aeec59bef68d614991fae7
 NeedsCompilation: yes
@@ -182,9 +224,11 @@ NeedsCompilation: yes
 Package: eggSim
 Version: 0.9.4-6
 Depends: R (>= 4.1.0), tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: f0abfaa78c1c709f99f5ca5482501577
 NeedsCompilation: yes
@@ -192,9 +236,11 @@ NeedsCompilation: yes
 Package: goldeneye
 Version: 0.5.0-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
-Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rstudioapi, base64enc, keyring, getPass,
+     sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+     0.25), cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>=
+     3.0.0)
 License: GPL (>= 3)
 MD5sum: f4a79129690343c210ec186479a73402
 NeedsCompilation: no
@@ -202,8 +248,10 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.1.0-1
 Depends: tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr, stringr
-Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rstudioapi, base64enc, keyring, getPass,
+     sodium, cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>=
+     3.0.0)
 License: GPL (>= 3)
 MD5sum: 9f2ae0764fc7dd16c479a176eae27d91
 NeedsCompilation: no
@@ -211,8 +259,10 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.2.0-1
 Depends: tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr, stringr
-Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rstudioapi, base64enc, keyring, getPass,
+     sodium, cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>=
+     3.0.0)
 License: GPL (>= 3)
 MD5sum: e5d1ddcc138843a14336f4e9248ff882
 NeedsCompilation: no
@@ -220,8 +270,10 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.3.0-0
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr, stringr, qs
-Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rstudioapi, base64enc, keyring, getPass,
+     sodium, cyphr, stringr, qs
+Suggests: knitr, rmarkdown, spelling, testthat (>=
+     3.0.0)
 License: GPL (>= 3)
 MD5sum: cee567959cbff43035706042c07d22fb
 NeedsCompilation: no
@@ -229,8 +281,10 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.3.0-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium, cyphr, stringr, qs
-Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rstudioapi, base64enc, keyring, getPass,
+     sodium, cyphr, stringr, qs
+Suggests: knitr, rmarkdown, spelling, testthat (>=
+     3.0.0)
 License: GPL (>= 3)
 MD5sum: 91bb2488adada133c4cc53a016674070
 NeedsCompilation: no
@@ -238,9 +292,11 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.0-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
-Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rstudioapi, base64enc, keyring, getPass,
+     sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+     0.25), cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>=
+     3.0.0)
 License: GPL (>= 3)
 MD5sum: ab22e5bac4807395ddcb99bc5d797094
 NeedsCompilation: no
@@ -248,9 +304,11 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.1-0
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
-Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rstudioapi, base64enc, keyring, getPass,
+     sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+     0.25), cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>=
+     3.0.0)
 License: GPL (>= 3)
 MD5sum: 37cdcaf194de23f596ced1e15051533e
 NeedsCompilation: no
@@ -258,9 +316,11 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.1-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
-Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rstudioapi, base64enc, keyring, getPass,
+     sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+     0.25), cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>=
+     3.0.0)
 License: GPL (>= 3)
 MD5sum: f9340394fd545a21edb7991d95b1daff
 NeedsCompilation: no
@@ -268,9 +328,11 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.2-2
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
-Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rstudioapi, base64enc, keyring, getPass,
+     sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+     0.25), cyphr, stringr
+Suggests: knitr, rmarkdown, spelling, testthat (>=
+     3.0.0)
 License: GPL (>= 3)
 MD5sum: 5c088a95ca816b9124c2042d3ae3ed65
 NeedsCompilation: no
@@ -279,7 +341,8 @@ Package: HexScape
 Version: 0.2.0-1
 Depends: tidyverse
 Imports: sf, rmapshaper, igraph, pbapply
-Suggests: eurostat, testthat (>= 3.0.0), knitr, markdown, spelling
+Suggests: eurostat, testthat (>= 3.0.0), knitr,
+     markdown, spelling
 License: GPL (>= 3)
 MD5sum: 6b70e880bf3841b3b34213f7cc0a1a7b
 NeedsCompilation: no
@@ -287,10 +350,22 @@ NeedsCompilation: no
 Package: runjags
 Version: 2.0.4-6
 Depends: R (>= 2.14.0)
-Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats, utils
+Imports: parallel, lattice (>= 0.20-10), coda (>=
+     0.17-1), stats, utils
 Suggests: rjags, modeest, knitr
 License: GPL-2
 MD5sum: 04f3d76224f1e937f40dcb16bc8252bb
+NeedsCompilation: yes
+
+Package: runjags
+Version: 2.2.2-1
+Depends: R (>= 2.14.0)
+Imports: parallel, lattice (>= 0.20-10), coda (>=
+     0.17-1), stats, utils
+Suggests: rjags (>= 4-7), modeest, testthat (>=
+     3.0.0), knitr, markdown, spelling
+License: GPL-2
+MD5sum: 280776b87e5f98e12a580c3f910a3fc4
 NeedsCompilation: yes
 
 Package: slaughtercodes
@@ -314,7 +389,8 @@ NeedsCompilation: yes
 Package: WelfareIndex
 Version: 2.0.2-3
 Depends: R (>= 2.14.0)
-Imports: methods, stats, utils, readxl, ggplot2, magrittr, dplyr, rlang, tidyr, knitr
+Imports: methods, stats, utils, readxl, ggplot2,
+     magrittr, dplyr, rlang, tidyr, knitr
 Suggests: markdown
 License: GPL (>= 2)
 MD5sum: acc485df7e6cbce4ccf012814e1632bd

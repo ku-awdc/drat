@@ -1,19 +1,31 @@
 Package: eggSim
 Version: 0.9.4-4
 Depends: R (>= 4.1.0), tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang,
-       dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: 9a7c7884f38e04ea6fb665c5945f462e
 
 Package: eggSim
 Version: 0.9.4-5
 Depends: R (>= 4.1.0), tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang,
-       dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr,
+     purrr, rlang, dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
-Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: tidyverse, testthat (>= 2.1.0), knitr,
+     rmarkdown, spelling
 License: GPL-3
 MD5sum: a5e778defde7c407922ea1b7e83cade4
+
+Package: runjags
+Version: 2.2.2-1
+Depends: R (>= 2.14.0)
+Imports: parallel, lattice (>= 0.20-10), coda (>=
+     0.17-1), stats, utils
+Suggests: rjags (>= 4-7), modeest, testthat (>=
+     3.0.0), knitr, markdown, spelling
+License: GPL-2
+MD5sum: 86278d88ba98aa45b8b89743c7a59430
