@@ -213,6 +213,17 @@ License: GPL-3
 MD5sum: f0abfaa78c1c709f99f5ca5482501577
 NeedsCompilation: yes
 
+Package: eggSim
+Version: 0.9.5-1
+Depends: R (>= 4.1.0), tidyverse
+Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr,
+        ggplot2, Rcpp
+LinkingTo: Rcpp
+Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+License: GPL-3
+MD5sum: eeec4d02ec8b60d668a750ca534eb18f
+NeedsCompilation: yes
+
 Package: goldeneye
 Version: 0.5.0-1
 Depends: R (>= 3.5.0), tidyverse
