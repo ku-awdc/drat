@@ -356,3 +356,12 @@ Suggests: markdown
 License: GPL (>= 2)
 MD5sum: acc485df7e6cbce4ccf012814e1632bd
 NeedsCompilation: no
+
+Package: WelfareIndex
+Version: 2.1.0-1
+Depends: R (>= 2.14.0)
+Imports: methods, stats, utils, readxl, ggplot2, magrittr, dplyr, rlang, tidyr, knitr
+Suggests: markdown
+License: GPL (>= 2)
+MD5sum: f93982c6df624d33b9e574507994bea0
+NeedsCompilation: no
