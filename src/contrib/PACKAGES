@@ -386,6 +386,15 @@ License: GPL (>= 3)
 MD5sum: 3f9dc7c884dcec3e3dbad0fb759a6c73
 NeedsCompilation: no
 
+Package: vetstat
+Version: 0.1.1-1
+Depends: tidyverse
+Imports: RJDBC, DBI, tibble, dplyr, dbplyr, keyring, sodium, pbapply
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 8778ec3346e0961fd8b3c73d5596e9ab
+NeedsCompilation: no
+
 Package: WelfareIndex
 Version: 2.0.2-3
 Depends: R (>= 2.14.0)
