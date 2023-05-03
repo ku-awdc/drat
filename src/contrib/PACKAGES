@@ -3,7 +3,8 @@ Version: 1.0.0-10
 Depends: R (>= 3.3.0)
 Imports: stats, utils, dplyr, rlang, Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
-Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>= 2.1.0), knitr, rmarkdown,
+          spelling
 License: GPL-3
 MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
@@ -49,7 +50,8 @@ NeedsCompilation: yes
 
 Package: Covid19RR
 Version: 0.3.0-2
-Imports: stats, utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: stats, utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr,
+          shiny
 LinkingTo: TMB, RcppEigen
 Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
 License: GPL-3
@@ -202,8 +204,8 @@ NeedsCompilation: yes
 Package: goldeneye
 Version: 0.5.0-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+          0.25), cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: f4a79129690343c210ec186479a73402
@@ -248,8 +250,8 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.0-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+          0.25), cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: ab22e5bac4807395ddcb99bc5d797094
@@ -258,8 +260,8 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.1-0
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+          0.25), cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 37cdcaf194de23f596ced1e15051533e
@@ -268,8 +270,8 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.1-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+          0.25), cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: f9340394fd545a21edb7991d95b1daff
@@ -278,8 +280,8 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.2-2
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25),
-           cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>=
+          0.25), cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 5c088a95ca816b9124c2042d3ae3ed65
@@ -387,10 +389,21 @@ NeedsCompilation: no
 Package: vetstat
 Version: 0.2.0-1
 Depends: tidyverse, R (>= 4.1.0)
-Imports: rJava, RJDBC, DBI, qs, tibble, readr, lubridate, dplyr, dbplyr, keyring, sodium, pbapply
+Imports: rJava, RJDBC, DBI, qs, tibble, readr, lubridate, dplyr, dbplyr, keyring, sodium,
+          pbapply
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: f536784f9504215f0daddc32a569f6e0
+NeedsCompilation: no
+
+Package: vetstat
+Version: 0.2.1-1
+Depends: tidyverse, R (>= 4.1.0)
+Imports: rJava, RJDBC, DBI, qs, tibble, readr, stringr, rlang, lubridate, dplyr, dbplyr,
+          keyring, sodium, pbapply
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 791635ab1fe8f8547db8fa4d04e99126
 NeedsCompilation: no
 
 Package: WelfareIndex
