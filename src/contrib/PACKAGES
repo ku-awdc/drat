@@ -345,6 +345,16 @@ License: GPL (>= 3)
 MD5sum: 94e066bca83a1a252e9a81a0c92ef66d
 NeedsCompilation: no
 
+Package: movenetapp
+Version: 0.2.2-1
+Imports: checkmate, dplyr, ggplot2, lubridate, magrittr, network, networkDynamic, parallel,
+          pbapply, plyr, purrr, readr, rlang, shiny, shinyWidgets, sna, stats, stringr,
+          tibble, tidyr, tsna, yaml
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 42dbdcff5c50de1e762b6a20380f9f5a
+NeedsCompilation: no
+
 Package: runjags
 Version: 2.0.4-6
 Depends: R (>= 2.14.0)
