@@ -369,6 +369,15 @@ License: GPL-3
 MD5sum: 456100553fbc7b538bc129b2ad92b013
 NeedsCompilation: no
 
+Package: neatpkg
+Version: 0.1.2-1
+Depends: R (>= 4.1.0)
+Imports: devtools, rlang, dplyr, tibble, usethis, spelling, knitr, rmarkdown, testthat (>= 2.1.0)
+Suggests: fortunes
+License: GPL-3
+MD5sum: a84db30227f1bc79a89dbf5e7bf9d113
+NeedsCompilation: no
+
 Package: runjags
 Version: 2.0.4-6
 Depends: R (>= 2.14.0)
