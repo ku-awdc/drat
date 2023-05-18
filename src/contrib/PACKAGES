@@ -114,6 +114,17 @@ License: GPL-3 | file LICENSE
 MD5sum: 81fdaa0ecd2a6e5885c137550834abb1
 NeedsCompilation: no
 
+Package: DonkeyDosing
+Version: 1.0.1-1
+Depends: R (>= 3.0.0), tidyverse
+Imports: stats, methods, pbapply, MASS, dplyr, ggplot2, broom, tibble (>= 2.0.0), scales,
+          rlang, stringr, readxl, readr, tidyr, lmerTest, lme4, imputeTS, testthat, RJSONIO,
+          writexl
+Suggests: R.rsp
+License: GPL-3 | file LICENSE
+MD5sum: 431b394df7aeb66608759ac7ad015eee
+NeedsCompilation: no
+
 Package: efsabt
 Version: 1.0.0-1
 Depends: R (>= 3.0.0)
