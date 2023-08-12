@@ -357,6 +357,16 @@ License: GPL (>= 3)
 MD5sum: 20f0544248afdc8942bfd3fcf00fbd31
 NeedsCompilation: yes
 
+Package: hexscape
+Version: 0.6.3-4
+Depends: tidyverse, R (>= 4.1.0)
+Imports: Rcpp, sf, rmapshaper, igraph, pbapply, eurostat, units, qs (>= 0.25)
+LinkingTo: Rcpp
+Suggests: testthat (>= 3.0.0), knitr, markdown, spelling
+License: GPL (>= 3)
+MD5sum: 5e5dc553ad9baa428e31abcad002846a
+NeedsCompilation: yes
+
 Package: movenetapp
 Version: 0.1.0-1
 Imports: checkmate, dplyr, ggplot2, lubridate, magrittr, network, networkDynamic, parallel,
