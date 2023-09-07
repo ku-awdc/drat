@@ -253,6 +253,16 @@ License: GPL (>= 3)
 MD5sum: a664642c0ea731ac2389f16d3e51d8f8
 NeedsCompilation: no
 
+Package: goldeneye
+Version: 0.6.1-1
+Depends: R (>= 4.1.0), tidyverse
+Imports: rstudioapi, zip, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs
+          (>= 0.25), cyphr, stringr, shiny, shinythemes, markdown
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 4912fa07dddb37007b45d303737e43fa
+NeedsCompilation: no
+
 Package: goldfinger
 Version: 0.1.0-1
 Depends: tidyverse
