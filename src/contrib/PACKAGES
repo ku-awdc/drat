@@ -233,6 +233,26 @@ License: GPL (>= 3)
 MD5sum: f4a79129690343c210ec186479a73402
 NeedsCompilation: no
 
+Package: goldeneye
+Version: 0.6.0-1
+Depends: R (>= 4.1.0), tidyverse
+Imports: rstudioapi, zip, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs
+          (>= 0.25), cyphr, stringr, shiny, shinythemes, rhandsontable
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 8302ba5a8bcfbb226d710868a7430815
+NeedsCompilation: no
+
+Package: goldeneye
+Version: 0.6.0-2
+Depends: R (>= 4.1.0), tidyverse
+Imports: rstudioapi, zip, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs
+          (>= 0.25), cyphr, stringr, shiny, shinythemes
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: a664642c0ea731ac2389f16d3e51d8f8
+NeedsCompilation: no
+
 Package: goldfinger
 Version: 0.1.0-1
 Depends: tidyverse
@@ -474,6 +494,15 @@ Suggests: rjags (>= 4-7), modeest, testthat (>= 3.0.0), knitr, markdown, spellin
 License: GPL-2
 MD5sum: 280776b87e5f98e12a580c3f910a3fc4
 NeedsCompilation: yes
+
+Package: sdubcontrol
+Version: 0.2.0-1
+Depends: R (>= 4.1.0)
+Imports: rlang, tidyverse, shiny, shinydashboard, shinyMatrix
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 4a38d7e1b90dee8306c6b0827c7bfd90
+NeedsCompilation: no
 
 Package: slaughtercodes
 Version: 0.1.0-2
