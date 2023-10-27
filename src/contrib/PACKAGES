@@ -532,6 +532,15 @@ License: GPL-3
 MD5sum: a4ad74f9d0782ff55965c9d3e6f1513c
 NeedsCompilation: yes
 
+Package: timesheets
+Version: 0.2.0-1
+Depends: R (>= 4.1.0), tidyverse
+Imports: utils, R6, rlang, dplyr, tibble, pbapply, openxlsx, readxl
+Suggests: neatpkg, knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: f8b895af099fddd8cce333e0ec9f05ae
+NeedsCompilation: no
+
 Package: vetstat
 Version: 0.1.0-1
 Depends: tidyverse
