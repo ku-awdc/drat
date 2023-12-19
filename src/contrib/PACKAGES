@@ -515,6 +515,15 @@ License: GPL (>= 3)
 MD5sum: 4a38d7e1b90dee8306c6b0827c7bfd90
 NeedsCompilation: no
 
+Package: sdubcontrol
+Version: 0.3.0-2
+Depends: R (>= 4.1.0), tidyverse
+Imports: shiny, shinydashboard, shinyMatrix
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 43629a29589874b60631aa203553d047
+NeedsCompilation: no
+
 Package: slaughtercodes
 Version: 0.1.0-2
 Depends: R (>= 2.14.0), lme4
