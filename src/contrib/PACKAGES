@@ -412,6 +412,15 @@ License: GPL (>= 3)
 MD5sum: 5e5dc553ad9baa428e31abcad002846a
 NeedsCompilation: yes
 
+Package: IPDMR
+Version: 0.2.6-3
+Depends: R (>= 4.1.0)
+Imports: rlang, dplyr, tibble, deSolve, checkmate, ggplot2, tidyr, stringr, R6, pbapply
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 603632fccdd7b67115ff8ff5ec9c76c1
+NeedsCompilation: no
+
 Package: movenetapp
 Version: 0.1.0-1
 Imports: checkmate, dplyr, ggplot2, lubridate, magrittr, network, networkDynamic, parallel,
