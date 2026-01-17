@@ -1,0 +1,12 @@
+Package: koalas
+Version: 0.4.2-1
+NeedsCompilation: yes
+Built: R 4.4.3; x86_64-w64-mingw32; 2026-01-08 06:53:10 UTC; windows
+Archs: x64
+Filesize: 1387587
+SHA256: 80ca9de23cec4789d130f88049e0d4a869fbd52026fd02a61441afab0d26d545
+Depends: R (>= 4.1.0)
+LinkingTo: Rcpp
+Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr, forcats, stringr, IPDMR, checkmate, Rcpp, R6, pbapply
+Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+
