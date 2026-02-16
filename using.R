@@ -5,10 +5,12 @@ dir <- '~/Documents/GitHub/drat'
 
 ## Make sure repo is set up:
 # First go to https://ku-awdc.r-universe.dev/apis and download a snapshot of macos, windows, source (all R versions) for a single pakacge e.g. koalas
+if(FALSE){
 file.copy("~/Downloads/ku-awdc-snapshot/bin", dir, recursive=TRUE, overwrite=FALSE)
 pp <- list.files("~/Downloads/ku-awdc-snapshot/src/contrib", pattern=".tar.gz", full=TRUE)
 stopifnot(length(pp)==1)
 insertPackage(pp, dir)
+}
 
 # R CMD build TestRcpp
 # R CMD install --build TestRcpp_0.1-1.tar.gz

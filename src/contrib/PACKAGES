@@ -141,12 +141,22 @@ MD5sum: 24f696ab8d6c4e35b4cd593682408ed2
 NeedsCompilation: no
 
 Package: PTBinraeR
-Version: 0.1.0-1
+Version: 0.2.0-1
 Depends: R (>= 4.1.0)
 Suggests: knitr
-License: Apache License 2.0
-MD5sum: 0f1a6bb06dcf2951f56656708544ac41
+License: Apache License (>= 2)
+MD5sum: 334b248cbd1534a642a9d5e13893c436
 NeedsCompilation: no
+
+Package: PTBinteRface
+Version: 0.2.0-1
+Depends: R (>= 4.1.0)
+Imports: methods, PTBinraeR, Rcpp, readr, rlang
+LinkingTo: Rcpp, PTBinraeR (>= 0.2.0)
+Suggests: knitr, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: cb88f0a5e865e3d28bf621a76fd68cf0
+NeedsCompilation: yes
 
 Package: runjags
 Version: 2.2.2-1
