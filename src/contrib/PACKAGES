@@ -9,13 +9,13 @@ MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
 
 Package: blofeld
-Version: 0.1.0-1
+Version: 0.2.1-1
 Depends: R (>= 4.1.0)
 Imports: R6, Rcpp
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 35c949adf4f07ef622ffa64fd65b67d4
+MD5sum: 1b351e154d9faf7a21ecababfe4d1078
 NeedsCompilation: yes
 
 Package: Covid19RR
@@ -38,8 +38,8 @@ NeedsCompilation: no
 Package: DonkeyDosing
 Version: 1.0.1-1
 Depends: R (>= 3.0.0), tidyverse
-Imports: stats, methods, pbapply, MASS, dplyr, ggplot2, broom, tibble (>= 2.0.0), scales, rlang, stringr, readxl, readr, tidyr, lmerTest, lme4, imputeTS, testthat,
-                  RJSONIO, writexl
+Imports: stats, methods, pbapply, MASS, dplyr, ggplot2, broom, tibble (>= 2.0.0), scales, rlang, stringr, readxl,
+             readr, tidyr, lmerTest, lme4, imputeTS, testthat, RJSONIO, writexl
 Suggests: R.rsp
 License: GPL-3 | file LICENSE
 MD5sum: 431b394df7aeb66608759ac7ad015eee
@@ -68,8 +68,8 @@ NeedsCompilation: yes
 Package: goldeneye
 Version: 0.6.1-1
 Depends: R (>= 4.1.0), tidyverse
-Imports: rstudioapi, zip, base64enc, keyring, getPass, sodium (>= 1.1), qs (>= 0.25), stringr, dplyr, rlang, tibble, magrittr, shiny, shinydashboard, shinythemes,
-                  htmltools, markdown
+Imports: rstudioapi, zip, base64enc, keyring, getPass, sodium (>= 1.1), qs (>= 0.25), stringr, dplyr, rlang, tibble,
+             magrittr, shiny, shinydashboard, shinythemes, htmltools, markdown
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 5a14be4d124df1ef53d38c89edf45880
@@ -115,7 +115,8 @@ NeedsCompilation: no
 Package: koalas
 Version: 0.4.2-1
 Depends: R (>= 4.1.0)
-Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr, forcats, stringr, IPDMR, checkmate, Rcpp, R6, pbapply
+Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr, forcats, stringr, IPDMR, checkmate, Rcpp, R6,
+             pbapply
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
@@ -124,8 +125,8 @@ NeedsCompilation: yes
 
 Package: movenetapp
 Version: 0.2.2-1
-Imports: checkmate, dplyr, ggplot2, lubridate, magrittr, network, networkDynamic, parallel, pbapply, plyr, purrr, readr, rlang, shiny, shinyWidgets, sna, stats,
-                  stringr, tibble, tidyr, tsna, yaml
+Imports: checkmate, dplyr, ggplot2, lubridate, magrittr, network, networkDynamic, parallel, pbapply, plyr, purrr,
+             readr, rlang, shiny, shinyWidgets, sna, stats, stringr, tibble, tidyr, tsna, yaml
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 42dbdcff5c50de1e762b6a20380f9f5a
@@ -206,7 +207,8 @@ NeedsCompilation: no
 Package: vetstat
 Version: 0.2.5-2
 Depends: tidyverse, R (>= 4.1.0)
-Imports: rJava, odbc, RJDBC, DBI, qs, tibble, readr, stringr, rlang, lubridate, dplyr (>= 1.1.3), dbplyr (>= 2.5.0), keyring, sodium, pbapply
+Imports: rJava, odbc, RJDBC, DBI, qs, tibble, readr, stringr, rlang, lubridate, dplyr (>= 1.1.3), dbplyr (>= 2.5.0),
+             keyring, sodium, pbapply
 Suggests: DatabaseConnector, knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 0d81883e071b00e4f83faaa30e129b14
