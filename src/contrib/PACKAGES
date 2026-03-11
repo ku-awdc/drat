@@ -9,13 +9,13 @@ MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
 
 Package: blofeld
-Version: 0.2.1-1
+Version: 0.2.2-1
 Depends: R (>= 4.1.0)
 Imports: R6, Rcpp
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 1b351e154d9faf7a21ecababfe4d1078
+MD5sum: 2abfa1d913cbddcbc8ff42820442634d
 NeedsCompilation: yes
 
 Package: Covid19RR
