@@ -1,11 +1,23 @@
 Package: koalas
 Version: 0.4.2-1
-NeedsCompilation: yes
-Built: R 4.5.2; x86_64-apple-darwin20; 2026-01-08 06:54:15 UTC; unix
-Filesize: 1074470
-SHA256: 786325a18ef4ca9b09ff6367320b41371512c7a4ebd633531313063896e84203
 Depends: R (>= 4.1.0)
+Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr,
+       forcats, stringr, IPDMR, checkmate, Rcpp, R6, pbapply
 LinkingTo: Rcpp
-Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr, forcats, stringr, IPDMR, checkmate, Rcpp, R6, pbapply
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: f022721b3d3a32a03c1005f9e81fad88
 
+Package: rjags
+Version: 4-18
+Depends: R (>= 2.14.0), coda (>= 0.13)
+Suggests: tcltk
+License: GPL (== 2)
+MD5sum: 05b288ad057ce5f582727cc452301d0d
+
+Package: rjags
+Version: 5-1
+Depends: R (>= 2.14.0), coda (>= 0.13)
+Suggests: tcltk
+License: GPL (== 2)
+MD5sum: a1aa2a87c509ae54fa5ac1cad39a872f

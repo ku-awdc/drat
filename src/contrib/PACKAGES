@@ -3,7 +3,8 @@ Version: 1.0.0-10
 Depends: R (>= 3.3.0)
 Imports: stats, utils, dplyr, rlang, Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
-Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>= 2.1.0), knitr, rmarkdown, spelling
+Suggests: shiny, shinythemes, rhandsontable, ggplot2, testthat (>=
+       2.1.0), knitr, rmarkdown, spelling
 License: GPL-3
 MD5sum: a7d58fe840ad53ce9def406d80a0b854
 NeedsCompilation: yes
@@ -20,16 +21,19 @@ NeedsCompilation: yes
 
 Package: Covid19RR
 Version: 0.3.4-2
-Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip, ggplot2, readr, shiny
+Imports: utils, graphics, grDevices, xml2, rvest, TMB, nloptr, zip,
+       ggplot2, readr, shiny
 LinkingTo: TMB, RcppEigen
-Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim, shinydashboard, plotly, shinyWidgets
+Suggests: testthat, knitr, rmarkdown, spelling, EpiEstim,
+       shinydashboard, plotly, shinyWidgets
 License: GPL-3
 MD5sum: 3583b08e46ae526fbc2735ad50664c1a
 NeedsCompilation: yes
 
 Package: disEpiODE
 Version: 0.1.0-2
-Imports: methods, stats, magrittr, tibble, dplyr, tidyr, sf, deSolve, rlang, ggplot2, fs
+Imports: methods, stats, magrittr, tibble, dplyr, tidyr, sf, deSolve,
+       rlang, ggplot2, fs
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: MIT + file LICENSE
 MD5sum: b46e6d64eb2b45cef8aefe8898e4e9df
@@ -38,8 +42,9 @@ NeedsCompilation: no
 Package: DonkeyDosing
 Version: 1.0.1-1
 Depends: R (>= 3.0.0), tidyverse
-Imports: stats, methods, pbapply, MASS, dplyr, ggplot2, broom, tibble (>= 2.0.0), scales, rlang, stringr, readxl,
-             readr, tidyr, lmerTest, lme4, imputeTS, testthat, RJSONIO, writexl
+Imports: stats, methods, pbapply, MASS, dplyr, ggplot2, broom, tibble
+       (>= 2.0.0), scales, rlang, stringr, readxl, readr, tidyr,
+       lmerTest, lme4, imputeTS, testthat, RJSONIO, writexl
 Suggests: R.rsp
 License: GPL-3 | file LICENSE
 MD5sum: 431b394df7aeb66608759ac7ad015eee
@@ -58,7 +63,8 @@ NeedsCompilation: yes
 Package: eggSim
 Version: 0.9.5-1
 Depends: R (>= 4.1.0), tidyverse
-Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang, dplyr, ggplot2, Rcpp
+Imports: MASS, parallel, pbapply, tidyr, magrittr, purrr, rlang,
+       dplyr, ggplot2, Rcpp
 LinkingTo: Rcpp
 Suggests: tidyverse, testthat (>= 2.1.0), knitr, rmarkdown, spelling
 License: GPL-3
@@ -68,8 +74,9 @@ NeedsCompilation: yes
 Package: goldeneye
 Version: 0.6.1-1
 Depends: R (>= 4.1.0), tidyverse
-Imports: rstudioapi, zip, base64enc, keyring, getPass, sodium (>= 1.1), qs (>= 0.25), stringr, dplyr, rlang, tibble,
-             magrittr, shiny, shinydashboard, shinythemes, htmltools, markdown
+Imports: rstudioapi, zip, base64enc, keyring, getPass, sodium (>=
+       1.1), qs (>= 0.25), stringr, dplyr, rlang, tibble, magrittr,
+       shiny, shinydashboard, shinythemes, htmltools, markdown
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 5a14be4d124df1ef53d38c89edf45880
@@ -78,7 +85,8 @@ NeedsCompilation: no
 Package: goldfinger
 Version: 0.4.3-1
 Depends: R (>= 3.5.0), tidyverse
-Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1), Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
+Imports: rstudioapi, base64enc, keyring, getPass, sodium (>= 1.1),
+       Rcpp (>= 1.0.8), qs (>= 0.25), cyphr, stringr
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: ce15b4a566d048ddb476bc7bffa9be43
@@ -96,7 +104,8 @@ NeedsCompilation: no
 Package: hexscape
 Version: 0.6.3-4
 Depends: tidyverse, R (>= 4.1.0)
-Imports: Rcpp, sf, rmapshaper, igraph, pbapply, eurostat, units, qs (>= 0.25)
+Imports: Rcpp, sf, rmapshaper, igraph, pbapply, eurostat, units, qs
+       (>= 0.25)
 LinkingTo: Rcpp
 Suggests: testthat (>= 3.0.0), knitr, markdown, spelling
 License: GPL (>= 3)
@@ -106,7 +115,8 @@ NeedsCompilation: yes
 Package: IPDMR
 Version: 0.2.6-3
 Depends: R (>= 4.1.0)
-Imports: rlang, dplyr, tibble, deSolve, checkmate, ggplot2, tidyr, stringr, R6, pbapply
+Imports: rlang, dplyr, tibble, deSolve, checkmate, ggplot2, tidyr,
+       stringr, R6, pbapply
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 603632fccdd7b67115ff8ff5ec9c76c1
@@ -115,8 +125,8 @@ NeedsCompilation: no
 Package: koalas
 Version: 0.4.2-1
 Depends: R (>= 4.1.0)
-Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr, forcats, stringr, IPDMR, checkmate, Rcpp, R6,
-             pbapply
+Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr,
+       forcats, stringr, IPDMR, checkmate, Rcpp, R6, pbapply
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
@@ -125,8 +135,10 @@ NeedsCompilation: yes
 
 Package: movenetapp
 Version: 0.2.2-1
-Imports: checkmate, dplyr, ggplot2, lubridate, magrittr, network, networkDynamic, parallel, pbapply, plyr, purrr,
-             readr, rlang, shiny, shinyWidgets, sna, stats, stringr, tibble, tidyr, tsna, yaml
+Imports: checkmate, dplyr, ggplot2, lubridate, magrittr, network,
+       networkDynamic, parallel, pbapply, plyr, purrr, readr, rlang,
+       shiny, shinyWidgets, sna, stats, stringr, tibble, tidyr, tsna,
+       yaml
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 42dbdcff5c50de1e762b6a20380f9f5a
@@ -135,7 +147,8 @@ NeedsCompilation: no
 Package: neatpkg
 Version: 0.2.0-1
 Depends: R (>= 4.1.0)
-Imports: devtools, rlang, dplyr, tibble, R6, usethis, spelling, knitr, rmarkdown, testthat (>= 2.1.0)
+Imports: devtools, rlang, dplyr, tibble, R6, usethis, spelling, knitr,
+       rmarkdown, testthat (>= 2.1.0)
 Suggests: fortunes
 License: GPL-3
 MD5sum: 24f696ab8d6c4e35b4cd593682408ed2
@@ -159,11 +172,29 @@ License: GPL (>= 3)
 MD5sum: cb88f0a5e865e3d28bf621a76fd68cf0
 NeedsCompilation: yes
 
+Package: rjags
+Version: 4-18
+Depends: R (>= 2.14.0), coda (>= 0.13)
+Suggests: tcltk
+License: GPL (== 2)
+MD5sum: 0a3eb14aceb53faa1b20645715fcfb68
+NeedsCompilation: yes
+
+Package: rjags
+Version: 5-1
+Depends: R (>= 2.14.0), coda (>= 0.13)
+Suggests: tcltk
+License: GPL (== 2)
+MD5sum: a6f30be0b5c9e4177a6d091c1f9f4f37
+NeedsCompilation: yes
+
 Package: runjags
 Version: 2.2.2-1
 Depends: R (>= 2.14.0)
-Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats, utils
-Suggests: rjags (>= 4-7), modeest, testthat (>= 3.0.0), knitr, markdown, spelling
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), stats,
+       utils
+Suggests: rjags (>= 4-7), modeest, testthat (>= 3.0.0), knitr,
+       markdown, spelling
 License: GPL-2
 MD5sum: 280776b87e5f98e12a580c3f910a3fc4
 NeedsCompilation: yes
@@ -207,9 +238,11 @@ NeedsCompilation: no
 Package: vetstat
 Version: 0.2.5-2
 Depends: tidyverse, R (>= 4.1.0)
-Imports: rJava, odbc, RJDBC, DBI, qs, tibble, readr, stringr, rlang, lubridate, dplyr (>= 1.1.3), dbplyr (>= 2.5.0),
-             keyring, sodium, pbapply
-Suggests: DatabaseConnector, knitr, rmarkdown, spelling, testthat (>= 3.0.0)
+Imports: rJava, odbc, RJDBC, DBI, qs, tibble, readr, stringr, rlang,
+       lubridate, dplyr (>= 1.1.3), dbplyr (>= 2.5.0), keyring,
+       sodium, pbapply
+Suggests: DatabaseConnector, knitr, rmarkdown, spelling, testthat (>=
+       3.0.0)
 License: GPL (>= 3)
 MD5sum: 0d81883e071b00e4f83faaa30e129b14
 NeedsCompilation: no
@@ -217,7 +250,8 @@ NeedsCompilation: no
 Package: WelfareIndex
 Version: 2.1.0-1
 Depends: R (>= 2.14.0)
-Imports: methods, stats, utils, readxl, ggplot2, magrittr, dplyr, rlang, tidyr, knitr
+Imports: methods, stats, utils, readxl, ggplot2, magrittr, dplyr,
+       rlang, tidyr, knitr
 Suggests: markdown
 License: GPL (>= 2)
 MD5sum: f93982c6df624d33b9e574507994bea0
