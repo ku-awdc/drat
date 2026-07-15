@@ -1,7 +1,7 @@
 # To add a package:
 
 library('drat')
-dir <- '~/Documents/GitHub/drat'
+dir <- '~/VersionControl/GitHub/drat'
 
 ## Make sure repo is set up:
 # First go to https://ku-awdc.r-universe.dev/apis and download a snapshot of macos, windows, source (all R versions) for a single pakacge e.g. koalas
