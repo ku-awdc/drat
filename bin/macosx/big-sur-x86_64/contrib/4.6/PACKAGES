@@ -1,19 +1,11 @@
 Package: koalas
 Version: 0.4.2-1
 Depends: R (>= 4.1.0)
-Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr,
-       forcats, stringr, IPDMR, checkmate, Rcpp, R6, pbapply
+Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr, forcats, stringr, IPDMR, checkmate, Rcpp, R6, pbapply
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: fe5e147640737ffe76f53934acc9e139
-
-Package: rjags
-Version: 4-18
-Depends: R (>= 2.14.0), coda (>= 0.13)
-Suggests: tcltk
-License: GPL (== 2)
-MD5sum: 2e19e2e122d753382dfcfca63217d139
 
 Package: rjags
 Version: 5-1
@@ -21,3 +13,4 @@ Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
 MD5sum: ad56f4d61f77bb26f6a945897b125b72
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-04-28 06:41:08 UTC; unix

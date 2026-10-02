@@ -178,11 +178,11 @@ MD5sum: fb62832108b6188215c612ad9fb94676
 NeedsCompilation: yes
 
 Package: rjags
-Version: 5-1
+Version: 5-4
 Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
-MD5sum: a6f30be0b5c9e4177a6d091c1f9f4f37
+MD5sum: 3275a18c4a3539f29d93055db2ddb36b
 NeedsCompilation: yes
 
 Package: runjags
