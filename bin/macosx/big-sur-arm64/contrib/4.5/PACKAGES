@@ -1,8 +1,7 @@
 Package: koalas
 Version: 0.4.2-1
 Depends: R (>= 4.1.0)
-Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr,
-       forcats, stringr, IPDMR, checkmate, Rcpp, R6, pbapply
+Imports: methods, rlang, dplyr, ggplot2, ggh4x, tibble, tidyr, purrr, forcats, stringr, IPDMR, checkmate, Rcpp, R6, pbapply
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, spelling, testthat (>= 3.0.0)
 License: GPL (>= 3)

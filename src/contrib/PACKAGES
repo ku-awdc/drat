@@ -182,7 +182,7 @@ Version: 5-4
 Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
-MD5sum: 3275a18c4a3539f29d93055db2ddb36b
+MD5sum: 5abf8d366518fab9a3e04673d64c88e7
 NeedsCompilation: yes
 
 Package: runjags

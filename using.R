@@ -27,7 +27,8 @@ for(p in ff){
 	insertPackage(p, dir)
 	file.remove(p)
 }
-pruneRepo(dir, remove=TRUE)
+pruneRepoForAllRversions(dir, remove=TRUE)
+updateRepo(dir)
 
 # Then push
 
