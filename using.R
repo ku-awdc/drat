@@ -27,8 +27,12 @@ for(p in ff){
 	insertPackage(p, dir)
 	file.remove(p)
 }
-pruneRepoForAllRversions(dir, remove=TRUE)
-updateRepo(dir)
+#pruneRepoForAllRversions(dir, remove=TRUE)
+#updateRepo(dir)
+
+# Installing a specific version:
+remotes::install_version("rjags", version="4-18", type="source", repos="https://ku-awdc.github.io/drat/")
+
 
 # Then push
 
