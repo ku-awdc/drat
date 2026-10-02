@@ -32,6 +32,7 @@ for(p in ff){
 
 # Installing a specific version:
 remotes::install_version("rjags", version="4-18", type="source", repos="https://ku-awdc.github.io/drat/")
+install.packages("JAGSmodule", type="source", repos="https://ku-awdc.github.io/drat/")
 
 
 # Then push
