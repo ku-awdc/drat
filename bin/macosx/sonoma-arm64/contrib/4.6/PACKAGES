@@ -1,9 +1,19 @@
+Package: JAGSmodule
+Version: 0.9.0-6
+Imports: rjags (>= 4-18)
+License: GPL (>= 2)
+MD5sum: 41bc83910675ee7377bf7b857906afb5
+Built: R 4.6.1; aarch64-apple-darwin23; 2026-10-19 08:53:40 UTC; unix
+File: JAGSmodule_0.9.0-6.tgz
+
 Package: rjags
 Version: 4-18
 Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
 MD5sum: 15806ae4fae1971f9c9bf73c61a82f48
+Built: R 4.6.0; aarch64-apple-darwin23; 2026-04-28 06:39:25 UTC; unix
+File: rjags_4-18.tgz
 
 Package: rjags
 Version: 5-1
@@ -11,3 +21,14 @@ Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
 MD5sum: 0aeb66308781e8f0203247c6086237cf
+Built: R 4.6.0; aarch64-apple-darwin23; 2026-04-28 06:39:29 UTC; unix
+File: rjags_5-1.tgz
+
+Package: rjags
+Version: 5-4
+Depends: R (>= 2.14.0), coda (>= 0.13)
+Suggests: tcltk
+License: GPL (== 2)
+MD5sum: 0952d5291cddb672f9524dad60125264
+Built: R 4.6.1; aarch64-apple-darwin23; 2026-10-19 08:53:35 UTC; unix
+File: rjags_5-4.tgz
