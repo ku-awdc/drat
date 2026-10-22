@@ -126,6 +126,13 @@ License: GPL (>= 2)
 MD5sum: e8c9699a57cc5bd5fea7af8864e67c8a
 NeedsCompilation: yes
 
+Package: JAGSmodule
+Version: 0.9.0-8
+Imports: rjags (>= 4-18)
+License: GPL (>= 2)
+MD5sum: 02eaa4e25c3f3a898f7307dee907b838
+NeedsCompilation: yes
+
 Package: koalas
 Version: 0.4.2-1
 Depends: R (>= 4.1.0)
@@ -196,7 +203,7 @@ Version: 4-18
 Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
-MD5sum: bfae27cce8d11ec4150ca0834faee56a
+MD5sum: d36eebe4be1fd023545db800d96f5380
 NeedsCompilation: yes
 
 Package: rjags
@@ -204,7 +211,7 @@ Version: 5-4
 Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
-MD5sum: cbdabba6803f692b13b427cbeb612f4c
+MD5sum: ea6051179c52223aba3acac9e1bd2f6a
 NeedsCompilation: yes
 
 Package: runjags
