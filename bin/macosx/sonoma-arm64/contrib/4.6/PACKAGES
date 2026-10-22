@@ -29,6 +29,16 @@ Version: 5-4
 Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
-MD5sum: 0952d5291cddb672f9524dad60125264
-Built: R 4.6.1; aarch64-apple-darwin23; 2026-10-19 08:53:35 UTC; unix
+MD5sum: af3c8bfac4a5a704ea936e55a55fa8ba
+Built: R 4.6.1; aarch64-apple-darwin23; 2026-10-22 14:10:46 UTC; unix
 File: rjags_5-4.tgz
+
+Package: runjags
+Version: 2.3.0-1
+Depends: R (>= 2.14.0)
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), rjags (>= 4-18), stats, utils
+Suggests: modeest, testthat (>= 3.0.0), knitr, litedown, markdown, spelling
+License: GPL-2
+MD5sum: c296835d7af9ab83f1f220e93e5b800b
+Built: R 4.6.1; aarch64-apple-darwin23; 2026-10-22 14:12:16 UTC; unix
+File: runjags_2.3.0-1.tgz
