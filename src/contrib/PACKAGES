@@ -235,7 +235,7 @@ Version: 5-5
 Depends: R (>= 2.14.0), coda (>= 0.13)
 Suggests: tcltk
 License: GPL (== 2)
-MD5sum: 63266c4e25493a3209da4ba354f7e202
+MD5sum: d8aac27e2c59beb65a9d7dedc70f9e9e
 NeedsCompilation: yes
 
 Package: runjags
@@ -269,6 +269,17 @@ Suggests: modeest, testthat (>= 3.0.0), knitr, litedown, markdown,
        spelling
 License: GPL-2
 MD5sum: c233626956aafcc86d0dc1c9135265dc
+NeedsCompilation: yes
+
+Package: runjags
+Version: 2.3.0-5
+Depends: R (>= 2.14.0)
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.17-1), rjags (>=
+       4-18), stats, utils
+Suggests: modeest, testthat (>= 3.0.0), knitr, litedown, markdown,
+       spelling
+License: GPL-2
+MD5sum: 7c400446f72e4fa2f5898e39be75ad7e
 NeedsCompilation: yes
 
 Package: sdubcontrol
